@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar  5 20:26:53 2024
+# Process ID: 23856
+# Current directory: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6448 D:\self_learning\RISC-V-RV32I-CPU\risc_v_cpu2\risc_v_cpu2.xpr
+# Log file: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/vivado.log
+# Journal file: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CPU_tb2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg
+source CPU_tb2.tcl
+create_wave_config
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg
+set_property xsim.view {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg} [get_filesets sim_1]
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg}
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/CPU_tb2_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim

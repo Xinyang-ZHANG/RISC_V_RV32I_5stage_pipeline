@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="inst_blkmem_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1708993769">
+  <File Type="PA-TCL" Name="inst_blkmem.tcl"/>
+  <File Type="REPORTS-TCL" Name="inst_blkmem_reports.tcl"/>
+  <File Type="RDS-RDS" Name="inst_blkmem.vds"/>
+  <File Type="RDS-UTIL" Name="inst_blkmem_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="inst_blkmem_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="inst_blkmem.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/inst_blkmem">
+    <File Path="$PSRCDIR/sources_1/ip/inst_blkmem/inst_blkmem.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/inst_blkmem.xci"/>
+        <Attr Name="ImportTime" Val="1708993767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="inst_blkmem"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/inst_blkmem">
+    <File Path="$PSRCDIR/sources_1/ip/inst_blkmem/inst_blkmem.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/inst_blkmem.xci"/>
+        <Attr Name="ImportTime" Val="1708993767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="inst_blkmem"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

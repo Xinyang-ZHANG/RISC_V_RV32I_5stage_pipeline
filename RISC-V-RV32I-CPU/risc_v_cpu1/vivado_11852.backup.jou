@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb 23 00:01:40 2024
+# Process ID: 11852
+# Current directory: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12936 D:\self_learning\RISC-V-RV32I-CPU\1\risc_v_cpu1\risc_v_cpu1.xpr
+# Log file: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/vivado.log
+# Journal file: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/risc_v_cpu1.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,708 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb 29 09:04:10 2024
+# Process ID: 10516
+# Current directory: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9972 D:\self_learning\RISC-V-RV32I-CPU\risc_v_cpu1\risc_v_cpu1.xpr
+# Log file: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/vivado.log
+# Journal file: D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 853.695 ; gain = 212.902
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'load' on this module [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v:57]
+ERROR: [VRFC 10-3180] cannot find port 'load' on this module [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v:82]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'load' on this module [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v:82]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:70]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 14 for port 'addrb' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_wren' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:100]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wea' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.ctrl_path
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.inst_blkmem
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.data_blkmem
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_tb_behav -key {Behavioral:sim_1:Functional:CPU_tb} -tclbatch {CPU_tb.tcl} -view {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.data_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_3 collision detected at time: 15000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 25000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 35000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 45000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 55000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 65000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 75000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 85000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 95000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 105000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 115000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 125000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 135000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 145000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 927.883 ; gain = 38.195
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:70]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 14 for port 'addrb' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_wren' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:100]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wea' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.ctrl_path
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.inst_blkmem
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.data_blkmem
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.data_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_3 collision detected at time: 15000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 25000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 35000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 45000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 55000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 65000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 75000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 85000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 95000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 105000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 115000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 125000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 135000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 145000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 948.152 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:70]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 14 for port 'addrb' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_wren' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:100]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wea' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.ctrl_path
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.inst_blkmem
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.data_blkmem
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.data_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_3 collision detected at time: 15000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 25000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 35000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 45000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 55000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 65000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 75000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 85000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 95000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 105000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 115000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 125000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 135000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 145000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 948.152 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:70]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 14 for port 'addrb' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_wren' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:100]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wea' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.ctrl_path
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.inst_blkmem
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.data_blkmem
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.data_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_3 collision detected at time: 15000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 25000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 35000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 45000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 55000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 65000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 75000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 85000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 95000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 105000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 115000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 125000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 135000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 145000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 275000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 285000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 295000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 305000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 315000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 325000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 335000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 345000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 355000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 365000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 375000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 385000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 395000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 405000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 415000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 425000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 435000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 445000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 455000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 465000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 475000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 485000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 495000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 505000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 515000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 525000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 535000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 545000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 555000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 565000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 575000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 585000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 595000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 605000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 615000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 625000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 635000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 645000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 655000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 665000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 675000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 685000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 695000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 705000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 715000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 725000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 735000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 745000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 755000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 765000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 775000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 785000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 795000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 805000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 815000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 825000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 835000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 845000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 855000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 865000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 875000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 885000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 895000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 905000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 915000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 925000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 935000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 945000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 955000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 965000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 975000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 985000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 995000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 950.832 ; gain = 0.027
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_blkmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/ctrl_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sim_1/new/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.sim/sim_1/behav/xsim'
+"xelab -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ebaa427a70ae49daa2bc36429536826e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:70]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 14 for port 'addrb' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/PC.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_wren' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:100]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'addra' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wea' [D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu1/risc_v_cpu1.srcs/sources_1/new/data_path.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.ctrl_path
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.inst_blkmem
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.data_blkmem
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.CPU_dut.data_path_dut.data_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_3 collision detected at time: 15000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 25000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 35000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 45000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 55000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 65000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 75000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 85000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 95000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 105000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 115000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 125000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 135000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 145000, Instance: CPU_tb.CPU_dut.data_path_dut.PC_dut.inst_blkmem_dut.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 958.172 ; gain = 0.000
+save_project_as risc_v_cpu2 D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2 -force
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 29 20:09:08 2024...

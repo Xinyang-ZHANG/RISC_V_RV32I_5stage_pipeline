@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb 27 22:02:18 2024
+# Process ID: 8400
+# Current directory: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4432 D:\self_learning\RISC-V-RV32I-CPU\1\risc_v_cpu1\risc_v_cpu1.xpr
+# Log file: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/vivado.log
+# Journal file: D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/risc_v_cpu1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/self_learning/RISC-V-RV32I-CPU/1/risc_v_cpu1/CPU_tb_behav.wcfg}
+close_sim

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_tb2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_tb2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="510590000fs"></ZoomStartTime>
+      <ZoomEndTime time="726990001fs"></ZoomEndTime>
+      <Cursor1Time time="625000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="284"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/CPU_tb2/CPU_dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/inst_ram_waddr" type="array">
+      <obj_property name="ElementShortName">inst_ram_waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ram_waddr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/inst_ram_wen" type="logic">
+      <obj_property name="ElementShortName">inst_ram_wen</obj_property>
+      <obj_property name="ObjectShortName">inst_ram_wen</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/inst_ram_wdata" type="array">
+      <obj_property name="ElementShortName">inst_ram_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ram_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_ram_waddr" type="array">
+      <obj_property name="ElementShortName">data_ram_waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ram_waddr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_ram_wen" type="logic">
+      <obj_property name="ElementShortName">data_ram_wen</obj_property>
+      <obj_property name="ObjectShortName">data_ram_wen</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_ram_wdata" type="array">
+      <obj_property name="ElementShortName">data_ram_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ram_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/pc_addr" type="array">
+      <obj_property name="ElementShortName">pc_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/jump_addr" type="array">
+      <obj_property name="ElementShortName">jump_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/jump_sel" type="logic">
+      <obj_property name="ElementShortName">jump_sel</obj_property>
+      <obj_property name="ObjectShortName">jump_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/halt_d2" type="logic">
+      <obj_property name="ElementShortName">halt_d2</obj_property>
+      <obj_property name="ObjectShortName">halt_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider112">
+      <obj_property name="label">d1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/flush_d1" type="logic">
+      <obj_property name="ElementShortName">flush_d1</obj_property>
+      <obj_property name="ObjectShortName">flush_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/PC_dut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider112">
+      <obj_property name="label">d2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r1_addr" type="array">
+      <obj_property name="ElementShortName">r1_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r2_addr" type="array">
+      <obj_property name="ElementShortName">r2_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/subsra" type="logic">
+      <obj_property name="ElementShortName">subsra</obj_property>
+      <obj_property name="ObjectShortName">subsra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/funccode" type="array">
+      <obj_property name="ElementShortName">funccode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funccode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r1_data_regfile" type="array">
+      <obj_property name="ElementShortName">r1_data_regfile[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_data_regfile[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r2_data_regfile" type="array">
+      <obj_property name="ElementShortName">r2_data_regfile[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_data_regfile[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/jump_addr" type="array">
+      <obj_property name="ElementShortName">jump_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/jump_sel" type="logic">
+      <obj_property name="ElementShortName">jump_sel</obj_property>
+      <obj_property name="ObjectShortName">jump_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/jump_cmp_data1" type="array">
+      <obj_property name="ElementShortName">jump_cmp_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_cmp_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/jump_cmp_data2" type="array">
+      <obj_property name="ElementShortName">jump_cmp_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_cmp_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/pc_addr_d2" type="array">
+      <obj_property name="ElementShortName">pc_addr_d2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr_d2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/imm_data" type="array">
+      <obj_property name="ElementShortName">imm_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/ctrl_path_dut/decoder_dut/imm_data_h" type="array">
+      <obj_property name="ElementShortName">imm_data_h[19:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data_h[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r1_data" type="array">
+      <obj_property name="ElementShortName">r1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/r2_data" type="array">
+      <obj_property name="ElementShortName">r2_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/regfile_dut/regdata" type="array">
+      <obj_property name="ElementShortName">regdata[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regdata[31:0][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider112">
+      <obj_property name="label">d3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/dmem_addr" type="array">
+      <obj_property name="ElementShortName">dmem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider112">
+      <obj_property name="label">d4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/wb_sel" type="logic">
+      <obj_property name="ElementShortName">wb_sel</obj_property>
+      <obj_property name="ObjectShortName">wb_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/dmem_dout" type="array">
+      <obj_property name="ElementShortName">dmem_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb2/CPU_dut/data_path_dut/rd_data_wb" type="array">
+      <obj_property name="ElementShortName">rd_data_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_wb[31:0]</obj_property>
+   </wvobject>
+</wave_config>

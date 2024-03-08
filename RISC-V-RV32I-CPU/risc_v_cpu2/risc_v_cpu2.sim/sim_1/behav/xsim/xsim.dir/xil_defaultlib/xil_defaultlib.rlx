@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sim_1/new/CPU_tb.v,1709649487,verilog,,,,CPU_tb,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sim_1/new/CPU_tb2.v,1709827833,verilog,,,,CPU_tb2,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/ip/data_blkmem/sim/data_blkmem.v,1708352203,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v,,data_blkmem,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/ip/inst_blkmem/sim/inst_blkmem.v,1708993769,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/ALU.v,,inst_blkmem,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/ALU.v,1709560537,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/CPU.v,,ALU,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/CPU.v,1709560157,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/PC.v,,CPU,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/PC.v,1709640702,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/branch_jump.v,,PC,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/branch_jump.v,1709644900,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/control_unit.v,,branch_jump,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/control_unit.v,1709474293,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/ctrl_path.v,,control_unit,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/ctrl_path.v,1709563722,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/data_path.v,,ctrl_path,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/data_path.v,1709828019,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/decoder.v,,data_path,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/decoder.v,1708600148,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/regfile.v,,decoder,,,,,,,,
+D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sources_1/new/regfile.v,1709389990,verilog,,D:/self_learning/RISC-V-RV32I-CPU/risc_v_cpu2/risc_v_cpu2.srcs/sim_1/new/CPU_tb2.v,,regfile,,,,,,,,
